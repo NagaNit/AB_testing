@@ -10,4 +10,4 @@ For this project, you will be working to understand the results of an A/B test r
 #### Conclusion
 > The p-value here suggests that that new page is not statistically significant as 0.19 > 0.05.
 >z_score is less than 1.6448, therefore, we would fail to reject the Null.
->In this study, We conclude that, as there is no significant evidence to reject the  𝐻𝑂  null hypothesis it's better to stay with the old page rather than choosing the new page.
+>In this study, We conclude that, as there is no significant evidence to choose the $H_1$ alternative hypothesis it's better to stay with the old page rather than choosing the new page.
