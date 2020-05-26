@@ -13942,13 +13942,7 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Evidence that one page leads to more conversions?</strong></p>
-<ol>
-<li>given that an individual was in the treatment group, the probability they have converted is 0.118807</li>
-<li>given that an individual was in the control group, the probability they have converted is 0.120386</li>
-<li>we are able to find that old page does better , but by a very small margin.</li>
-<li>changed aversion, the test span duration and other potentially influencing factors have not been acoounted for. So,we cannot state that one page leads to more conversions.This is very important as both pages show similar performance.</li>
-</ol>
+<p><strong>As per the data the total conversion rate is  11.9% in that control group conversion rate is 12% whereas, the treatment group conversion rate 11.8% by scrutinizing the conversion rate in the control and treatment group there is not sufficient evidence to say that the new treatment page leads to more conversions.</strong></p>
 
 </div>
 </div>
@@ -14840,7 +14834,7 @@ In part-3 we have compared it with two sides whereas in Part-2 it with one side 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>There might be many factors that can effect individual converts . age group and gender can play a significant change. Also usage and access may effect the rate of conversion. We can find new trends using other factors but there may be some disadvantages like even with new factors we may miss some other influencing factors which lead to unreliable and contradictory results compared to previous results.</strong></p>
+<p><strong>According to the data, some factors affect individual conversions like age, group, gender, though we can affirm new trends there might be some disadvantages, as it an e-commerce website we may miss some influential factors which lead to misleading and conflicting results compared to previous results.</strong></p>
 
 </div>
 </div>
@@ -14859,8 +14853,8 @@ In part-3 we have compared it with two sides whereas in Part-2 it with one side 
 <div class="prompt input_prompt">In&nbsp;[101]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">countries_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./countries.csv&#39;</span><span class="p">)</span>
-<span class="n">df_new</span> <span class="o">=</span> <span class="n">countries_df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;user_id&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df2</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;user_id&#39;</span><span class="p">),</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;inner&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">countries</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;countries.csv&#39;</span><span class="p">)</span>
+<span class="n">df_new</span> <span class="o">=</span> <span class="n">countries</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;user_id&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df2</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;user_id&#39;</span><span class="p">),</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;inner&#39;</span><span class="p">)</span>
 <span class="n">df_new</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
