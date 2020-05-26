@@ -13942,7 +13942,13 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Your answer goes here.</strong></p>
+<p><strong>Evidence that one page leads to more conversions?</strong></p>
+<ol>
+<li>given that an individual was in the treatment group, the probability they have converted is 0.118807</li>
+<li>given that an individual was in the control group, the probability they have converted is 0.120386</li>
+<li>we are able to find that old page does better , but by a very small margin.</li>
+<li>changed aversion, the test span duration and other potentially influencing factors have not been acoounted for. So,we cannot state that one page leads to more conversions.This is very important as both pages show similar performance.</li>
+</ol>
 
 </div>
 </div>
@@ -13962,7 +13968,9 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Put your answer here.</strong></p>
+<p><strong>Hypothesis
+ $H_{0}$ : $p_{new}$ &lt;= $p_{old}$
+ $H_{1}$ : $p_{new}$ &gt; $p_{old}$.</strong></p>
 
 </div>
 </div>
@@ -15300,8 +15308,20 @@ In part-3 we have compared it with two sides whereas in Part-2 it with one side 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Summary-and-conclusion-on-regression">Summary and conclusion on regression<a class="anchor-link" href="#Summary-and-conclusion-on-regression">&#182;</a></h2><blockquote><p>The p_value for both interaction terms is higher than 0.05.
+Thus, the influence of landing_page in the US is not different to the influence of landing_page in the other countries.
+And the influence of landing_page in Canada is not different to the influence of landing_page in the other countries.</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><a id='conclusions'></a></p>
-<h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><blockquote><p><strong>In this study, We conclude that, as there is no significant evidence to reject the $H_O$ null hypothesis it's better to stay with the old page rather than choosing the new page.</strong></p>
+<h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><blockquote><p><strong>In this study,we can conclude that there is not enough evidence that the new_page increases the conversion rate as compared to the old_page. This is based on the probability figures, A/B testand regression. There is no strong evidence that the countries (US, CA and UK) influence the conversion rate.
+Since the sample size is large continuing the testing of the new_page is likely not necessary. It is best to focus on the development of another new landing page..</strong></p>
 </blockquote>
 
 </div>
