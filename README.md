@@ -13,7 +13,7 @@ For this project, you will be working to understand the results of an A/B test r
 > 3. In this study, We conclude that, as there is no significant evidence to choose the $$H_1$$ alternative hypothesis it's better to stay with the old page rather than choosing the new page.
 
 
-
+![Screenshot 2020-06-09 at 11 14 24 AM](https://user-images.githubusercontent.com/32237416/84110696-fa2c6b80-aa42-11ea-8a54-f4c6cf936d13.png)
 
 
 Hey reviewer, the previous reviewer is saying I have copied from my own git repo which is (https://github.com/NagaNit) which is ridiculous and flagged me with plagiarism and he asked me to prove that's my account.
